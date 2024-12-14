@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: var(--font-family);
+}
+:root {
+  /* Brand */
+  --brand-light: #f67841;
+  --brand-mid: #f3541c;
+  --brand-dark: #e43a12;
+
+  /* text */
+  --text-primary: #292524;
+  --text-secondary: #57534e;
+  --text-tertiary: #8f8881;
+  --text-highlight: #e43a12;
+
+  /* Surface */
+  --surface-primary: #ffff;
+  --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
+
+  /* Stroke */
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
+
+  /* Semantic */
+  --semantic-error: #dc2626;
+
+  /* supporting */
+  --orange: #f9a474;
+  --yellow: #fedf6f;
+  --green: #c7d78d;
+  --blue: #b8cedc;
+  --violet: #c3b2e7;
+  --pink: #f682a5;
+
+  /* Fontes */
+--font-family:"Roboto Condensed", sans-serif;
+--headin1: 600 32px/120% var(--font-family);
+--headin2: 600 24px/120% var(--font-family);
+--headin3: 600 20px/120% var(--font-family);
+--headin4: 600 16px/120% var(--font-family);
+}
