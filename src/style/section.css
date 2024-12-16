@@ -45,7 +45,21 @@
       color: var(--text-secondary);
       font: var(--headin3);
     }
- 
-  }
 
+
+  }
+  .endereco1{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 24px;
+    .text{
+      width: 332px;
+      height: 48px;
+    }
+.numero{
+  width: 176px;
+height: 48px;
+}
+
+  }
 }
