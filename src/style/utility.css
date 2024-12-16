@@ -1,0 +1,20 @@
+.gap-24{
+        gap: 24px;
+}
+.grid-2{
+
+        .personalizado{
+        input{
+             width: 332px;
+             height: 48px;   
+        }
+}
+.personalizado2{
+        input{
+             width: 176px;
+             height: 48px;   
+        }
+}
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}

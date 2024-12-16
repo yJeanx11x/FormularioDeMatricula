@@ -1,0 +1,51 @@
+.form {
+  padding-block: 24px;
+  h4 {
+    font: var(--text-secondary);
+    padding-bottom: 6px;
+  }
+  input {
+    width: 528px;
+    padding: 3.5%;
+    border-radius: 5px;
+    border: none;
+    color: var(--text-primary);
+    border: 1px solid var(--stroke-default);
+  }
+  select {
+    width: 528px;
+    padding: 3.5%;
+    border-radius: 5px;
+    border: none;
+    color: var(--text-primary);
+    border: 1px solid var(--stroke-default);
+  }
+  textarea {
+    width: 528px;
+    height: 120px;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 500;
+    border: 1px solid var(--stroke-default);
+  }
+  .enviar {
+    width: 528px;
+    height: 160px;
+    border: 0.9px dashed var(--stroke-default);
+    border-radius: 8px;
+    text-align: center;
+    padding-block: 26px;
+    img {
+        width: 40px;
+    }
+    h4 {
+      width: 157px;
+      height: 48px;
+      margin: auto;
+      color: var(--text-secondary);
+      font: var(--headin3);
+    }
+ 
+  }
+
+}

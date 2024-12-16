@@ -1,0 +1,32 @@
+.container {
+  padding: 64px;
+  /* background-color: #45d8; */
+  & .btn-voltar {
+    width: 80px;
+    height: 24px;
+    a {
+      display: flex;
+      gap: 8px;
+
+      p {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  a:hover{
+color: var( --text-highlight);
+transition: 0.3s ease;
+  }
+  .descricao {
+    padding-block: 24px;
+    h1 {
+      font: var(--headin1);
+    }
+
+    p {
+      padding-block: 8px;
+      font: var(--headin3);
+    }
+  }
+}

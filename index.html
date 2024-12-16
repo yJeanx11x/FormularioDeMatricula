@@ -14,7 +14,95 @@
     <title>Document</title>
   </head>
   <body>
-<h1>Jean</h1>
+
+    <div class="container">
+      <header>
+        <div class="btn-voltar">
+        <a href="#">
+          <img src="assets/icons/arrow-left-02.svg" alt="" >
+          <p>Voltar</p>
+        </a>
+        </div>
+        
+        <div class="descricao">
+          <h1>Formulário de matrícula</h1>
+          <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+        </div>
+      </header>
+
+      <section >
+
+<form action="#" method="post" class="gap-24">
+<h3>Informação da criança</h3>
+
+<div class="form">
+<h4>Nome completo</h4>
+  <input type="text" name="nome" required>
+</div>
+
+<div class="form">
+  <h4>Data de nacimento</h4>
+    <input  type="date" required >
+  </div>
+
+  <div class="form">
+    <h4>Sexo</h4>
+    <select name="Sexo">
+      <optgroup label="Sexo">
+        <option label="Feminino" value="Feminino">
+        <option label="Maculino" value="Maculino">
+      </optgroup>
+    </select>
+    
+  </div>
+
+  <div class="form">
+    <h4>Informação médicas</h4>
+      <textarea name="textp">Ela tem Alergia a glúten</textarea>
+    </div>
+
+    <div class="form">
+      <h4>Certidão de nacimento</h4>
+
+<div class="enviar">
+
+  <img class="imgs" src="assets/icons/cloud-upload.svg" alt="">
+  <h4><a href="#">Clique aqui para selecionar arquivos</a></h4>
+
+</div>
+
+    </div>
+  
+  <div>
+
+</form>
+
+      </section>
+
+<div class="grid-2">
+      <div class="form">
+        <h3>Endereço residencial</h3>
+        <div class="form">
+          <h4>CEP</h4>
+            <input type="number" required maxlength="8">
+          </div>
+      
+          <div class="form personalizado">
+            <h4>Rua</h4>
+              <input  type="number" required maxlength="8">
+          </div>
+          <div class="personalizado2">
+            <h4>numero</h4>
+              <input type="text" >
+            </div>
+      </div>
+      
+
+        
+    </div>  
+
+    </div>
+
 
   </body>
 </html>
