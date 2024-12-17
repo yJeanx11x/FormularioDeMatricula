@@ -4,6 +4,13 @@
     font: var(--text-secondary);
     padding-bottom: 6px;
   }
+  h5{
+    margin-top: 8px;
+    font: var( --headin4);
+
+
+  }
+  
   input {
     width: 528px;
     padding: 3.5%;
@@ -55,11 +62,16 @@
     .text{
       width: 332px;
       height: 48px;
+
     }
 .numero{
   width: 176px;
 height: 48px;
+
 }
 
   }
+
+  
+
 }
